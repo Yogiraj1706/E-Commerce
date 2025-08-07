@@ -1,10 +1,11 @@
 import React, { createContext, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { UserContext } from '../Context/UserContext'
-import Laoading from '../../../githubcards/src/Github/MyShop/Laoading'
+
 import { useContext } from 'react'
 import './Product.css'
 import { CartContext } from '../Context/CartContext'
+
 
 function Products() {
 
@@ -59,7 +60,7 @@ function Products() {
             <br></br>
             <br></br>
             {
-               isloading?<Laoading></Laoading>: products.map((product)=>{
+               isloading? <h1>Loading</h1>: products.map((product)=>{
                     return (
                         <div className="div">
                             
