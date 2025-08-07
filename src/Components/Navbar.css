@@ -1,0 +1,16 @@
+nav{
+    width: 100vw;
+    padding: 30px;
+    background-color: black;
+}
+nav a{
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+nav div{
+    display: inline-block;
+    margin-left: 60%;
+}

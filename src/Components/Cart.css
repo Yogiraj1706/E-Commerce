@@ -1,0 +1,13 @@
+.total{
+    border: 1px solid white;
+    height: 150px;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+}
+button{
+    background-color: yellow;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+}

@@ -1,0 +1,25 @@
+body{
+    background-color: gray;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+form{
+    margin: auto;
+    border: 1px ;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    background-color: rgb(129, 143, 143);
+}
+input{
+    width: 250px;
+    height: 25px;
+    margin-top: 10px;
+}
+button{
+    margin-left: 100px;
+}
